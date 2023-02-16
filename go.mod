@@ -1,6 +1,6 @@
 module yitsushi/github-pr-creator
 
-go 1.14
+go 1.20
 
 require (
 	github.com/google/go-github/v31 v31.0.0
