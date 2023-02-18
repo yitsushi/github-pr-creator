@@ -3,7 +3,7 @@ module yitsushi/github-pr-creator
 go 1.20
 
 require (
-	github.com/google/go-github/v31 v31.0.0
+	github.com/google/go-github/v50 v50.0.0
 	golang.org/x/oauth2 v0.5.0
 )
 

@@ -8,10 +8,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/google/go-github/v31/github"
+	"github.com/google/go-github/v50/github"
 	"golang.org/x/oauth2"
 )
-
 
 var (
 	sourceOwner   = flag.String("source-owner", "", "Name of the owner (user or org) of the repo to create the pull request.")
